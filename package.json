@@ -1,0 +1,19 @@
+{
+  "name": "yarn-bug-report-workspaces-transitive-bin-link",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": "https://github.com/Tapppi/yarn-bug-report-workspaces-transitive-bin-link",
+  "author": "Tapani Moilanen <moilanen.tapani@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "xo"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "yarn-bug-transitive-xo": "^1.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "test-lint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Tapppi/yarn-bug-transitive-xo",
+  "author": "Tapani Moilanen <moilanen.tapani@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "xo"
+  },
+  "private": false
+}
